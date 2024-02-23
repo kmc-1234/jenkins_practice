@@ -13,9 +13,10 @@ pipeline
                             {
                             steps
                                {
-                               sh Jenkinsfile
+                               sh "python3 main.py"
+                               sh "java demo.java"
                                }
                              }
 }
-}
+ }
 
