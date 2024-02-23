@@ -9,6 +9,7 @@ pipeline
                         {
                         git "https://github.com/kpmc123/jenkins_practice.git"
                         }
+                      }
                         stage("Run")
                             {
                             steps
@@ -19,5 +20,4 @@ pipeline
                              }
 }
  }
-
-       } 
+  
